@@ -1,0 +1,7 @@
+/*@media (min-width: 320px)*/
+.page-wrap{
+	margin: 50px 5% 50px 5%;
+	background-color: white;
+	max-width: 1500px;
+	max-height: 1500px;
+}
