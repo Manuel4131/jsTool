@@ -4,4 +4,28 @@
 	background-color: white;
 	max-width: 1500px;
 	max-height: 1500px;
+	display: flex;
+	flex-flow: row wrap; //wrap is mulitple lines
+
 }
+
+.header{
+	flex: 1 100%;
+}
+
+.footer{
+	flex: 1 100%;
+}
+
+.center{
+	display: flex;
+	flex-flow: row nowrap;	//nowrap: single line;
+}
+
+
+.aside{
+	flex: 1 auto;
+}
+.main{
+ 	flex: 2 auto;
+ }
